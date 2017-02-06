@@ -4,7 +4,7 @@ Getting and Cleaning Data Course Project
 ## This Readme explains what steps were made to produce tidy data set.
 All computations included into only script "run_analisys.R". 
 
-## Prerequisites.
+## Prerequisites
 To work correctly the raw data zip file 'getdata_projectfiles_UCI HAR Dataset.zip' has to be unpacked with full paths in R working directory.
 Also the script requires *library dplyr()*. 
 
@@ -22,5 +22,5 @@ I use functions grepl() for this, using masks '-mean()', '-std()'. Also I have t
 
 *4. And on the final step the preliminary data.frame is being grouped by key variables Subject_Code and Act_Code and then the mean of all other variables is being calculated with function summarise_all.
 
-## Result.
+## Result
 As a result the script returns data frame with 180 observations (30 subjects * 6 types of activity), two keys variables - Subject_Code and Act_code and 66 other variables.

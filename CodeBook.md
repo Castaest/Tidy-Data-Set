@@ -1,9 +1,11 @@
 # CodeBook for Getting and Cleaning Data Course Project
 
-# DATA DICTIONARY - Human Activity Recognition Using Smartphones Tidy Dataset
+## DATA DICTIONARY - Human Activity Recognition Using Smartphones Tidy Dataset
 
-*Subject_Code*		2 / integer
+*Subject_Code*	~	2 / integer
+
 		Code of the subject
+
 			1..30
 
 *Act_Code*		character
