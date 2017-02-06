@@ -2,29 +2,32 @@
 
 ## DATA DICTIONARY - Human Activity Recognition Using Smartphones Tidy Dataset
 
-*Subject_Code*	~	2 / integer
-
+*Subject_Code*	
+		2 / integer
 		Code of the subject
+		1..30
 
-			1..30
-
-*Act_Code*		character
+*Act_Code*	
+		character
 		Name of activity
-			WALKING
-			WALKING_UPSTAIRS
-			WALKING_DOWNSTAIRS
-			SITTING
-			STANDING
-			LAYING
+		WALKING
+		WALKING_UPSTAIRS
+		WALKING_DOWNSTAIRS
+		SITTING
+		STANDING
+		LAYING
+
 ## Time domain signals (prefix t)
 
-*tBodyAcc-mean()-X*	numeric
+*tBodyAcc-mean()-X*
+		numeric
 		Mean of Body Acceleration - X axis mean values
-			[-1,1]	
+		[-1,1]	
 
-*tBodyAcc-mean()-Y*	numeric
+*tBodyAcc-mean()-Y*	
+		numeric
 		Mean of Body Acceleration - Y axis mean values
-			[-1,1]	
+		[-1,1]	
 
 *tBodyAcc-mean()-Z*	numeric
 		Mean of Body Acceleration - Z axis mean values
